@@ -4,9 +4,12 @@ Your answers to the questions go here.
 
 ## Host Agent Setup Docker
 ##### Host Config File
-![Alt text](Host_config_file-datadog.yaml.PNG?raw=true "Lews Host config file")
+
+![Alt text](https://raw.githubusercontent.com/Reevzee/hiring-engineers/master/Host_config_file-datadog.yaml.PNG "Lews Host config file")
+
 ##### Host UI Tags Applied
-![Alt text](/dd_host1_withTags.PNG?raw=true "Lews Host with Tags")
+
+![Alt text](https://raw.githubusercontent.com/Reevzee/hiring-engineers/master/dd_host1_withTags.PNG "Lews Host with Tags")
 
 > The Hostname and Tags can be altered using docker run command with variables like `-e DD_HOSTNAME=scooby.dooobedoo -e DD_TAGS=puppy-power_env:scrappy_prod` 
 
@@ -36,7 +39,7 @@ Postgres connection - OK`
 
 ##### Postgres Metrics in UI
 
-![Alt text](/postgres_metrics.PNG?raw=true "Postgres metrics dashboard")
+![Alt text](https://raw.githubusercontent.com/Reevzee/hiring-engineers/master/postgres_metrics.PNG "Postgres metrics dashboard")
 
 ##### Custom Agent Check
 
@@ -64,8 +67,8 @@ instances: min_collection_interval: 45`
 ##### Timeboard Script Used to create Timeboard via API
 
 ``` 
-api_key=4e5ff588b984e056b27e117eaceb4e16
-app_key=8c59015e3d1cb3da16a129b5838f0c2f2edd42e5
+api_key=<Lew_APIKEY>
+app_key=<Lew_APPKey>
 
 curl  -X POST -H "Content-type: application/json" \
 -d '{
@@ -112,10 +115,10 @@ curl  -X POST -H "Content-type: application/json" \
 "https://api.datadoghq.com/api/v1/dash?api_key=${api_key}&application_key=${app_key}"
 ```
 ##### Timeboard Snapshot 5 mins
-![Alt text](/sendsnashot.PNG?raw=true "Snapshopwith@notation")
+![Alt text](https://raw.githubusercontent.com/Reevzee/hiring-engineers/master/sendsnashot.PNG "Snapshopwith@notation")
 
 ##### Timeboard Snapshot 5 mins with anomaly
-![Alt text](/snap_with_anomaly.PNG?raw=true "Snapshopwitanomaly")
+![Alt text](https://raw.githubusercontent.com/Reevzee/hiring-engineers/master/snap_with_anomaly.PNG "Snapshopwitanomaly")
 
 ###### Bonus Question: What is the Anomaly graph displaying?
 > The anomaly graph shows that the average number of connections to the database
@@ -125,19 +128,22 @@ moving avg
 ## Monitor Data
 
 ##### Manage Monitors Config 1
-![Alt text](/Monitors_config1.PNG?raw=true "Mad_monitor1")
+![Alt text](https://raw.githubusercontent.com/Reevzee/hiring-engineers/master/Monitors_config1.PNG "Mad_monitor1")
 
 ##### Manage Monitors Config 2
-![Alt text](/Monitors_config2.PNG?raw=true "Mad_monitor2")
+![Alt text](https://raw.githubusercontent.com/Reevzee/hiring-engineers/master/Monitors_config2.PNG "Mad_monitor2")
+
+##### Manage Monitors Triggered Alert 
+![Alt text](https://raw.githubusercontent.com/Reevzee/hiring-engineers/master/Triggered_alert.PNG "Mad_monitor2")
 
 ##### Manage Monitors Schedule Email
-![Alt text](/scheduledt.PNG?raw=true "schedule_email")
+![Alt text](https://raw.githubusercontent.com/Reevzee/hiring-engineers/master/scheduledt.PNG "schedule_email")
 
 ##### Manage Monitors Schedule Email 2
-![Alt text](/scheduledt2.PNG?raw=true "Schedule_email2")
+![Alt text](https://raw.githubusercontent.com/Reevzee/hiring-engineers/master/scheduledt2.PNG "Schedule_email2")
 
 ##### Manage Monitors Schedule Alert Recover Email
-![Alt text](/Alert_recov.PNG?raw=true "Alert_Recover")
+![Alt text](https://raw.githubusercontent.com/Reevzee/hiring-engineers/master/Alert_recov.PNG "Alert_Recover")
 
 ## Flask App
 
@@ -146,10 +152,10 @@ moving avg
 [This is the Link to my flask app repo](https://github.com/Reevzee/dd_Flask_app "Reevzee Flask App")
 
 ##### Flask App Dash
-![Alt text](/Flaskapp.PNG?raw=true "Flask app dash")
+![Alt text](https://raw.githubusercontent.com/Reevzee/hiring-engineers/master/Flaskapp.PNG "Flask app dash")
 
 ##### Flask app Dash
-![Alt text](/flaskapp2.PNG?raw=true "Flask Dash")
+![Alt text](https://raw.githubusercontent.com/Reevzee/hiring-engineers/master/flaskapp2.PNG "Flask Dash")
 
 #### Bonus Question: What is the difference between a Service and a Resource?
 

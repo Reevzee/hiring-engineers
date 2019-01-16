@@ -4,9 +4,12 @@ Your answers to the questions go here.
 
 ## Host Agent Setup Docker
 ##### Host Config File
-![Alt text](Host_config_file-datadog.yaml.PNG?raw=true "Lews Host config file")
+
+![Alt text](https://raw.githubusercontent.com/Reevzee/hiring-engineers/master/Host_config_file-datadog.yaml.PNG "Lews Host config file")
+
 ##### Host UI Tags Applied
-![Alt text](/dd_host1_withTags.PNG?raw=true "Lews Host with Tags")
+
+![Alt text](https://raw.githubusercontent.com/Reevzee/hiring-engineers/master/dd_host1_withTags.PNG "Lews Host with Tags")
 
 > The Hostname and Tags can be altered using docker run command with variables like `-e DD_HOSTNAME=scooby.dooobedoo -e DD_TAGS=puppy-power_env:scrappy_prod` 
 

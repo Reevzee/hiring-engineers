@@ -133,6 +133,9 @@ moving avg
 ##### Manage Monitors Config 2
 ![Alt text](https://raw.githubusercontent.com/Reevzee/hiring-engineers/master/Monitors_config2.PNG "Mad_monitor2")
 
+##### Manage Monitors Triggered Alert 
+![Alt text](https://raw.githubusercontent.com/Reevzee/hiring-engineers/master/Triggered_alert.PNG "Mad_monitor2")
+
 ##### Manage Monitors Schedule Email
 ![Alt text](https://raw.githubusercontent.com/Reevzee/hiring-engineers/master/scheduledt.PNG "schedule_email")
 
